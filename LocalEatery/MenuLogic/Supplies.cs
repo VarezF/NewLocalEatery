@@ -8,17 +8,15 @@ namespace MenuLogic
 {
     class Supplies
     {
-        // Fields
+        private Dictionary<string, Ingredient> supply;
 
-        /// <summary>
-        /// Name of the Inventory Supply
-        /// </summary>
-        private string _supplyName;
-
-        /// <summary>
-        /// Ammount of the Inventory Supply
-        /// </summary>
-        private int _supplyAmmount;
+        public Supplies()
+        {
+            this.supply.Add("eggs", new Ingredient("Eggs", 0.0, 20));
+            this.supply.Add("Milk", new Ingredient("Eggs", 0.0, 30));
+            this.supply.Add("Lettuce", new Ingredient("Eggs", 0.0, 5));
+            // etc.
+        }
 
         /// <summary>
         /// Event Handler to Notify Inventory Ran Out of Supply
@@ -27,28 +25,6 @@ namespace MenuLogic
         /// <param name="e">Message</param>
         public delegate void SupplyRanOut(object sender, EventArgs e);
         public event SupplyRanOut OnSupplyDimenished;
-
-        // Properties
-
-        public string SupplyName
-        {
-            get { return this._supplyName; }
-            set { this._supplyName = value; }
-        }
-
-        public int SupplyAmmount
-        {
-            get { return this._supplyAmmount; }
-            set
-            {
-                this._supplyAmmount = value;
-                if (this._supplyAmmount == 0)
-                {
-                    // Notify Manager or Supplier when Supply Runs Out
-                    this.OnSupplyDimenished(this, new EventArgs());
-                }
-            }
-        } 
         
         // Methods
 
@@ -58,7 +34,11 @@ namespace MenuLogic
         /// <param name="i"></param>
         public void Update(Ingredient i)
         {
-            this.SupplyAmmount -= (int) i.UnitAmmount;
+            this.supply[i.Name].UnitAmmount -= i.UnitAmmount;
+            if (this.supply[i.Name].UnitAmmount <= 5)
+            {
+                // throw event, ingredient low
+            }
         }
     }
 }

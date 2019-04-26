@@ -48,7 +48,7 @@ namespace MenuLogic
         // Methods
 
         // Constructor
-        Ingredient(string name, double cost, double unitAmmount)
+        public Ingredient(string name, double cost, double unitAmmount)
         {
             this._name = name;
             this._cost = cost;

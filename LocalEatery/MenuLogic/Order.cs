@@ -61,15 +61,6 @@ namespace MenuLogic
             set { this._status = value; }
         }
 
-        // Methods
-
-        // Constructor
-        public Order(List<Dish> dishes)
-        {
-            this._orderedDishes = dishes;
-            this._status = 0;
-        }
-
         /// <summary>
         /// Adds Dish to the list of Ordered Dishes
         /// </summary>
