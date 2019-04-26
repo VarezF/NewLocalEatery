@@ -90,10 +90,10 @@ namespace MenuLogic
             Console.WriteLine(dish.PrepTime);
 
             // Print Nutritional Data
-            foreach (string item in dish.NutritionData)
-            {
-                Console.WriteLine(item);
-            }
+            //foreach (string item in dish.NutritionData)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
             // Print Ingredients List
             foreach (Ingredient ingredient in Ingredients)

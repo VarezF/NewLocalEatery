@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Menu
+namespace MenuLogic
 {
     /// <summary>
     /// Menu class that inhereits from Dish, able to adapt based on new entries coming from 
@@ -73,7 +73,7 @@ namespace Menu
         /// <summary>
         /// Dictionary that will hold the style of food and the accomodating List that it can carry.
         /// </summary>
-        private Dictionary<int, Dish> Dishname = new Dictionary<int, Dish>();
+        public Dictionary<int, Dish> Dishname = new Dictionary<int, Dish>();
 
         /// <summary>
         /// Property setter for our dictionary
