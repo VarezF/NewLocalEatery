@@ -63,22 +63,47 @@ namespace UI
             MessageBox.Show("Choose Dish", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
         }
 
+        /// <summary>
+        /// Fires when user clicks Update Revenue
+        /// </summary>
+        /// <param name="sender">Update Revenue button</param>
+        /// <param name="e">event arguments</param>
         private void UpdateRevenueClicked(object sender, EventArgs e)
         {
+            Series revenueSeries = this.chart1.Series.FindByName("DailyRevenue");
 
+            if (Data.dailyRevenue != null)
+            {
+                foreach (Amount amount in Data.dailyRevenue)
+                {
+                    UIRevenue.Add(amount);
+                }
+            }           
+
+            foreach (Amount amount in this.UIRevenue)
+            {
+                revenueSeries.Points.AddXY(amount.dateRange, amount.totalReceived);
+            }
         }
 
-
+        /// <summary>
+        /// Fires when user clicks view tables
+        /// </summary>
+        /// <param name="sender">View table button</param>
+        /// <param name="e">event arguments</param>
         private void ViewTablesClicked(object sender, EventArgs e)
         {
             this.tabControl1.SelectedTab = this.tabPage1;
         }
 
+        /// <summary>
+        /// Fires when user clicks view kitchen
+        /// </summary>
+        /// <param name="sender">View kitchen button</param>
+        /// <param name="e">event arguments</param>
         private void ViewKitchenClicked(object sender, EventArgs e)
         {
             this.tabControl1.SelectedTab = this.tabPage3;
         }
-
-
     }
 }
