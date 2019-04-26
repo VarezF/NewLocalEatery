@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using MenuLogic;
+using System;
+using System.Collections.Generic;
 
 namespace Menu
 {
@@ -8,6 +10,14 @@ namespace Menu
     /// </summary>
     public class Menu : MenuLogic.Dish
     {
+       public Menu(string a, double b, TimeSpan c, string[] d, List<Ingredient> e) : base (a, b, c, d, e)
+        {
+
+        }
+
+
+
+
         /// <summary>
         /// Dictionary that will hold the style of food and the accomodating List that it can carry.
         /// </summary>
@@ -74,6 +84,7 @@ namespace Menu
                 SetDish(value.Key, value.Value);
             }
         }
+
 
     }
 }

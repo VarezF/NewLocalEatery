@@ -1,0 +1,17 @@
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\obj\Debug\UI.LocalEatery.resources
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\bin\Debug\UI.exe.config
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\bin\Debug\UI.exe
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\bin\Debug\UI.pdb
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\bin\Debug\Actors.dll
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\bin\Debug\MenuLogic.dll
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\bin\Debug\Revenue.dll
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\bin\Debug\Actors.pdb
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\bin\Debug\MenuLogic.pdb
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\bin\Debug\Revenue.pdb
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\obj\Debug\UI.exe
+C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\UI\obj\Debug\UI.pdb

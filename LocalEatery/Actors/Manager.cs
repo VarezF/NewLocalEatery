@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Actors
 {
-    public class Manager : User
+    internal class Manager : User
     {
 
         /// <summary>

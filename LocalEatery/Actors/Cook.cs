@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Actors
 {
-    public class Cook : User
+    internal class Cook : User
     {
-
         /// <summary>
         /// Constructor for a 'cook' user object.
         /// </summary>
