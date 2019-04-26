@@ -49,5 +49,11 @@
     <Compile Include="Waiter.cs" />
     <Compile Include="WorkDay.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MenuLogic\MenuLogic.csproj">
+      <Project>{48d9f8e1-f160-42ab-bd0f-533e2a52295a}</Project>
+      <Name>MenuLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

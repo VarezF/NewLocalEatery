@@ -3,3 +3,12 @@ C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\Actors\bin\De
 C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\Actors\obj\Debug\Actors.csproj.CoreCompileInputs.cache
 C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\Actors\obj\Debug\Actors.dll
 C:\Users\david\source\repos\LocalEatery\NewLocalEatery\LocalEatery\Actors\obj\Debug\Actors.pdb
+C:\Users\david\source\repos\LocalEateryMaster\NewLocalEatery\LocalEatery\Actors\obj\Debug\Actors.csprojAssemblyReference.cache
+C:\Users\david\source\repos\LocalEateryMaster\NewLocalEatery\LocalEatery\Actors\obj\Debug\Actors.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\LocalEateryMaster\NewLocalEatery\LocalEatery\Actors\obj\Debug\Actors.dll
+C:\Users\david\source\repos\LocalEateryMaster\NewLocalEatery\LocalEatery\Actors\obj\Debug\Actors.pdb
+C:\Users\david\source\repos\LocalEateryMaster\NewLocalEatery\LocalEatery\Actors\bin\Debug\Actors.dll
+C:\Users\david\source\repos\LocalEateryMaster\NewLocalEatery\LocalEatery\Actors\bin\Debug\Actors.pdb
+C:\Users\david\source\repos\LocalEateryMaster\NewLocalEatery\LocalEatery\Actors\bin\Debug\MenuLogic.dll
+C:\Users\david\source\repos\LocalEateryMaster\NewLocalEatery\LocalEatery\Actors\bin\Debug\MenuLogic.pdb
+C:\Users\david\source\repos\LocalEateryMaster\NewLocalEatery\LocalEatery\Actors\obj\Debug\Actors.csproj.CopyComplete

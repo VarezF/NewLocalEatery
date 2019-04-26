@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MenuLogic;
 
 namespace Actors
 {
@@ -17,5 +18,14 @@ namespace Actors
             this.setName(_name);
         }
 
+        public bool ReceiveOrder(Order newOrder)
+        {
+            if (newOrder != null)
+            {
+                newOrder.PlaceOrder(newOrder);
+                return true;
+            }
+            return false;
+        }
     }
 }
