@@ -2,12 +2,7 @@
 using Revenue;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 
@@ -66,9 +61,10 @@ namespace UI
             {
                 checkedListBox1.SetItemCheckState(i, CheckState.Unchecked);
             }
-            
-            
 
+            this.Table1_Status.Text = "Occupied";
+            this.Table1_Status.BackColor = Color.Yellow;
+            
             Dictionary<int, Dish> Dishname = new Dictionary<int, Dish>();
             //Ignore snippet below, it's just something I found online
 
@@ -167,6 +163,11 @@ namespace UI
         private void ViewKitchenClicked(object sender, EventArgs e)
         {
             this.tabControl1.SelectedTab = this.tabPage3;
+        }
+
+        private void Table1_Status_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
