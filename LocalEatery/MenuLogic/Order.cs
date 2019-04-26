@@ -8,6 +8,20 @@ namespace MenuLogic
 {
     public class Order
     {
+        private Supplies supply;
+
+        public Order(List<Dish> orderedDishes)
+        {
+            this.supply = new Supplies();
+            this.OrderedDishes = new List<Dish>(this.OrderedDishes);
+            foreach(Dish dish in this.OrderedDishes)
+            {
+                foreach(Ingredient ingredient in dish.Ingredients)
+                {
+                    this.supply.Update(ingredient);
+                }
+            }
+        }
         // Fields
 
         /// <summary>
